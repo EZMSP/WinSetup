@@ -41,5 +41,5 @@ $dlFile = Join-Path -Path $outPath -ChildPath $outFile
 if (-not(test-path $outPath)) {
     New-Item -Path $outPath -ItemType Directory
 }
-Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/zacrollins/WinSetup/master/Invoke-Win10Clean.ps1' -UseBasicParsing -OutFile $dlFile
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/ezmsp/WinSetup/master/Invoke-Win10Clean.ps1' -UseBasicParsing -OutFile $dlFile
 Invoke-Expression $dlFile
