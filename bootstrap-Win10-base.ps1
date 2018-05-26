@@ -1,4 +1,4 @@
-$PackageName = "https://raw.githubusercontent.com/zacrollins/WinSetup/master/Win10-base.ps1"
+$PackageName = "https://raw.githubusercontent.com/ezmsp/WinSetup/master/Win10-base.ps1"
 
 # Bootstrap Boxstarter, will install requirements too if missing
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('http://boxstarter.org/bootstrapper.ps1'))
